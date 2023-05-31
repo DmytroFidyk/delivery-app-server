@@ -1,0 +1,20 @@
+{
+  "name": "delivery-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmytro Fidyk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.2",
+    "express": "^4.18.2",
+    "firebase": "^9.22.1",
+    "firebase-admin": "^11.9.0",
+    "pg": "^8.11.0"
+  }
+}
