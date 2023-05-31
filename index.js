@@ -12,8 +12,8 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-//const dotenv = require('dotenv');
-//dotenv.config();
+const dotenv = require('dotenv');
+dotenv.config();
 
 const port = 7000;
 
